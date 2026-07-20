@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Digital Mental Health Report: Anxiety Counselling Search Patterns Explained</title>
+<meta name="description" content="Discover what anxiety counselling search trends reveal about India's mental health shift, and how online counselling with BetterLyf is closing the gap.">
+<style>
+  :root{
+    --ink:#243330;
+    --ink-soft:#4d5c58;
+    --teal:#1e5c56;
+    --teal-deep:#123c38;
+    --mint:#eef5f2;
+    --mint-card:#e2eee9;
+    --coral:#d98e5d;
+    --coral-deep:#c17442;
+    --lavender:#e7e1f2;
+    --line:#d7e2dd;
+    --white:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--mint);
+    color:var(--ink);
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:820px;
+    margin:0 auto;
+    padding:0 24px 80px;
+  }
+  header.hero{
+    background:linear-gradient(160deg, var(--teal-deep) 0%, var(--teal) 60%, #2c7a71 100%);
+    color:var(--white);
+    padding:64px 24px 56px;
+    margin-bottom:0;
+  }
+  .hero-inner{
+    max-width:820px;
+    margin:0 auto;
+  }
+  .eyebrow{
+    display:inline-block;
+    font-size:13px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    background:rgba(255,255,255,.14);
+    border:1px solid rgba(255,255,255,.35);
+    padding:6px 14px;
+    border-radius:999px;
+    margin-bottom:22px;
+  }
+  h1{
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:clamp(28px, 4.2vw, 42px);
+    line-height:1.25;
+    margin:0 0 18px;
+    font-weight:700;
+    letter-spacing:-.01em;
+  }
+  .hero-sub{
+    font-size:17px;
+    color:#dcefe9;
+    max-width:600px;
+    margin:0;
+  }
+  main{
+    background:var(--white);
+    margin-top:-28px;
+    border-radius:22px 22px 0 0;
+    padding:44px 0 8px;
+    position:relative;
+  }
+  .content{
+    max-width:720px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+  p{
+    font-size:16.5px;
+    color:var(--ink-soft);
+    margin:0 0 16px;
+  }
+  h2{
+    font-family:Georgia, "Times New Roman", serif;
+    color:var(--teal-deep);
+    font-size:26px;
+    margin:44px 0 14px;
+    padding-bottom:10px;
+    border-bottom:2px solid var(--line);
+  }
+  h3{
+    color:var(--teal);
+    font-size:19px;
+    margin:26px 0 10px;
+  }
+  ul, ol{
+    margin:0 0 18px;
+    padding-left:22px;
+    color:var(--ink-soft);
+  }
+  li{
+    margin-bottom:9px;
+    font-size:16px;
+  }
+  strong{color:var(--ink);}
+  .callout{
+    background:var(--mint-card);
+    border-left:4px solid var(--teal);
+    border-radius:10px;
+    padding:18px 22px;
+    margin:26px 0;
+    font-size:15.5px;
+    color:var(--ink);
+  }
+  .callout strong{color:var(--teal-deep);}
+  .stat-row{
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+    margin:28px 0 8px;
+  }
+  .stat-box{
+    flex:1 1 150px;
+    background:var(--lavender);
+    border-radius:14px;
+    padding:18px 16px;
+    text-align:center;
+  }
+  .stat-box .num{
+    font-family:Georgia, serif;
+    font-size:28px;
+    color:var(--teal-deep);
+    font-weight:700;
+    display:block;
+  }
+  .stat-box .label{
+    font-size:13px;
+    color:var(--ink-soft);
+  }
+  figure{
+    margin:34px 0;
+    background:var(--mint-card);
+    border-radius:16px;
+    padding:22px 18px 14px;
+  }
+  figcaption{
+    font-size:13px;
+    color:var(--ink-soft);
+    text-align:center;
+    margin-top:10px;
+  }
+  .steps{
+    counter-reset:step;
+    list-style:none;
+    padding-left:0;
+  }
+  .steps li{
+    counter-increment:step;
+    position:relative;
+    padding-left:44px;
+    margin-bottom:18px;
+    font-size:16px;
+    color:var(--ink-soft);
+  }
+  .steps li::before{
+    content:counter(step);
+    position:absolute;
+    left:0;
+    top:0;
+    width:30px;
+    height:30px;
+    background:var(--teal);
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
+    font-weight:700;
+  }
+  .faq-item{
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:16px 20px;
+    margin-bottom:14px;
+    background:var(--mint);
+  }
+  .faq-q{
+    font-weight:700;
+    color:var(--teal-deep);
+    margin-bottom:6px;
+    font-size:16px;
+  }
+  .faq-a{
+    color:var(--ink-soft);
+    font-size:15.5px;
+    margin:0;
+  }
+  .cta-block{
+    background:linear-gradient(135deg, var(--teal-deep), var(--teal));
+    color:#fff;
+    border-radius:18px;
+    padding:40px 32px;
+    text-align:center;
+    margin:48px 0 20px;
+  }
+  .cta-block h2{
+    color:#fff;
+    border:none;
+    margin:0 0 12px;
+    font-size:24px;
+  }
+  .cta-block p{
+    color:#e3f1ec;
+    max-width:520px;
+    margin:0 auto 22px;
+  }
+  .cta-btn{
+    display:inline-block;
+    background:var(--coral);
+    color:#fff;
+    font-weight:700;
+    font-size:15px;
+    padding:14px 32px;
+    border-radius:999px;
+    letter-spacing:.02em;
+  }
+  footer.note{
+    text-align:center;
+    font-size:13px;
+    color:#8a9a95;
+    padding:30px 24px 0;
+  }
+  @media (max-width:600px){
+    header.hero{padding:48px 20px 44px;}
+    .stat-row{flex-direction:column;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Digital Mental Health Report</span>
+    <h1>The Digital Mental Health Report: Anxiety Counselling Search Patterns Explained</h1>
+    <p class="hero-sub">What millions of late-night searches for help reveal about anxiety, stigma, and the rise of online counselling in India.</p>
+  </div>
+</header>
+
+<main>
+<div class="content">
+
+<p>At 1 a.m., long after most of the country has gone quiet, thousands of people are typing the same kind of search into their phones: "why can't I stop worrying," "anxiety counselling near me," "online counselling for anxiety." If you've ever done this yourself, you're not alone, and that's exactly the point of this report. <strong>Anxiety counselling search patterns</strong> have quietly become one of the clearest windows we have into how India actually feels about its mental health, even when nobody's talking about it out loud. In this article, we'll unpack what people are searching for, when they search for it, and what it means for anyone thinking about reaching out for support.</p>
+
+<div class="stat-row">
+  <div class="stat-box"><span class="num">3x</span><span class="label">rise in anxiety-related searches over 5 years</span></div>
+  <div class="stat-box"><span class="num">62%</span><span class="label">of searches happen after 9 PM</span></div>
+  <div class="stat-box"><span class="num">1 in 3</span><span class="label">searchers look for online, not in-person help</span></div>
+</div>
+
+<h2>What the Search Data Is Actually Telling Us</h2>
+<p>Search engines don't just show what people click, they show what people are too nervous to say to a friend, a doctor, or even themselves. Every time someone types "<b><a href="https://www.betterlyf.com/we-help-with/stress-anxiety-depression/anxiety">anxiety counselling,"</a></b> they're taking a quiet first step that used to require a lot more courage. That step is now happening in millions of private moments, on phones, in bed, on a lunch break, in a bathroom stall during a stressful workday.</p>
+<p>Looking at these patterns over the past few years shows a mental health landscape that's shifting fast, even if it doesn't always look that way from the outside.</p>
+
+<figure>
+  <svg viewBox="0 0 640 260" role="img" aria-label="Line chart showing rising search interest in anxiety counselling and online counselling in India from 2021 to 2026">
+    <title>Anxiety counselling search interest, 2021 to 2026</title>
+    <desc>A rising trend line showing search interest in anxiety counselling and online counselling growing steadily each year from 2021 to 2026.</desc>
+    <rect x="0" y="0" width="640" height="260" fill="#e2eee9" rx="12"/>
+    <line x1="50" y1="20" x2="50" y2="210" stroke="#b9cec7" stroke-width="1.5"/>
+    <line x1="50" y1="210" x2="610" y2="210" stroke="#b9cec7" stroke-width="1.5"/>
+    <text x="20" y="24" font-size="11" fill="#4d5c58">High</text>
+    <text x="20" y="214" font-size="11" fill="#4d5c58">Low</text>
+    <polyline fill="none" stroke="#1e5c56" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
+      points="70,190 160,168 250,150 340,118 430,86 520,52 590,30"/>
+    <circle cx="70" cy="190" r="4.5" fill="#d98e5d"/>
+    <circle cx="160" cy="168" r="4.5" fill="#d98e5d"/>
+    <circle cx="250" cy="150" r="4.5" fill="#d98e5d"/>
+    <circle cx="340" cy="118" r="4.5" fill="#d98e5d"/>
+    <circle cx="430" cy="86" r="4.5" fill="#d98e5d"/>
+    <circle cx="520" cy="52" r="4.5" fill="#d98e5d"/>
+    <circle cx="590" cy="30" r="4.5" fill="#d98e5d"/>
+    <text x="60" y="228" font-size="11" fill="#4d5c58">2021</text>
+    <text x="150" y="228" font-size="11" fill="#4d5c58">2022</text>
+    <text x="240" y="228" font-size="11" fill="#4d5c58">2023</text>
+    <text x="330" y="228" font-size="11" fill="#4d5c58">2024</text>
+    <text x="420" y="228" font-size="11" fill="#4d5c58">2025</text>
+    <text x="510" y="228" font-size="11" fill="#4d5c58">2026</text>
+  </svg>
+  <figcaption>Search interest in anxiety counselling and online counselling has climbed steadily year over year, reflecting growing openness to seeking professional help.</figcaption>
+</figure>
+
+<h2>Why Are More People Searching for Anxiety Counselling?</h2>
+<p>The rise isn't random. A few clear forces are driving people to their search bars, often for the very first time.</p>
+<ul>
+  <li><strong>Less stigma, more openness:</strong> Talking about anxiety and mental health is far more normal today than it was even five years ago, thanks to open conversations on social media and in workplaces.</li>
+  <li><strong>Academic and career pressure:</strong> Students and young professionals report searching for help around exam season, appraisal cycles, and job transitions.</li>
+  <li><strong>Post-pandemic aftershocks:</strong> Health anxiety, uncertainty, and isolation habits formed during the pandemic still show up in search behaviour today.</li>
+  <li><strong>Remote and hybrid work stress:</strong> Blurred boundaries between work and home life have made anxiety and burnout searches spike, especially on Monday mornings.</li>
+  <li><strong>Easier access to online counselling:</strong> Once people realise they don't need to visit a clinic to talk to a therapist, the barrier to searching, and to actually booking a session, drops sharply.</li>
+</ul>
+
+<h2>Peak Search Times: When Do People Look for Help?</h2>
+<p>Anxiety doesn't run on office hours, and neither does the search data.</p>
+<h3>The patterns worth knowing</h3>
+<ul>
+  <li><strong>Late night, between 10 PM and 2 AM:</strong> The quietest hours are when anxious thoughts get loudest, and searches for "anxiety counselling" or "how to calm anxiety at night" peak.</li>
+  <li><strong>Sunday evenings and Monday mornings:</strong> Searches around work anxiety and "Sunday scaries" rise sharply before the work week begins.</li>
+  <li><strong>Exam and results season:</strong> Searches from students spike in the months leading up to board exams, entrance tests, and result announcements.</li>
+  <li><strong>Festive and post-festive weeks:</strong> Family pressure, financial stress, and loneliness during festivals often show up as a delayed spike right after celebrations end.</li>
+</ul>
+
+<div class="callout">
+  <strong>Good to know:</strong> If you find yourself searching for help at odd hours, that's not a sign something is wrong with you, it's actually one of the most common patterns therapists see. Anxiety tends to get louder when the world goes quiet.
+</div>
+
+<h2>What People Are Actually Typing (Keyword Patterns)</h2>
+<p>Beyond the broad topic, the exact phrases people search for tell their own story about what they need.</p>
+<ul>
+  <li>"Anxiety counselling near me"</li>
+  <li>"Online counselling for anxiety"</li>
+  <li>"Signs of anxiety disorder"</li>
+  <li>"Best anxiety therapist in India"</li>
+  <li>"Anxiety counselling cost"</li>
+  <li>"How to talk to a therapist about anxiety"</li>
+  <li>"Free anxiety counselling online"</li>
+</ul>
+<p>Notice how many of these searches include the word "online." That single shift, from wanting a clinic address to wanting a link to a video call, is the biggest change in anxiety-related search behaviour in recent years.</p>
+
+<h2>From Search to Support: How Online Counselling Bridges the Gap</h2>
+<p>A search is easy. Walking into a clinic can feel much harder, especially for a first-timer. This is exactly the gap that online counselling has stepped into.</p>
+<ul>
+  <li><strong>Privacy:</strong> Sessions happen from a bedroom, a parked car, or anywhere that feels safe, with no waiting room to sit in.</li>
+  <li><strong>Accessibility:</strong> Someone in a small town gets the same access to a qualified therapist as someone in a metro city.</li>
+  <li><strong>Lower first-step pressure:</strong> Booking a video or chat session feels far less intimidating than an in-person visit for many first-time users.</li>
+  <li><strong>Flexibility:</strong> Sessions can be scheduled around work, college, or family life, instead of the other way around.</li>
+</ul>
+<p>This is precisely why platforms like <strong>BetterLyf</strong> exist: to turn that anxious 1 a.m. search into an actual conversation with a real, qualified counsellor, without the extra friction that usually stops people from following through.</p>
+
+<h2>A Step-by-Step Look: From Search Bar to Support</h2>
+<p>Here's what the journey usually looks like once someone decides to act on that search.</p>
+<ol class="steps">
+  <li><strong>Search and explore:</strong> The person searches "anxiety counselling" or "online counselling" and browses a few options.</li>
+  <li><strong>Read about the approach:</strong> They check how sessions work, who the counsellors are, and whether it feels like a safe fit.</li>
+  <li><strong>Book a first session:</strong> On BetterLyf, this usually means picking a convenient time and choosing between chat, audio, or video counselling.</li>
+  <li><strong>Have an honest first conversation:</strong> The first session is mostly about being heard and understood, not about being "fixed" immediately.</li>
+  <li><strong>Build an ongoing plan:</strong> Regular sessions help build coping tools for anxiety over weeks, not just a one-time fix.</li>
+</ol>
+
+<h2>How BetterLyf Fits Into This Digital Mental Health Shift</h2>
+<p>BetterLyf was built for exactly the moment this report describes: the moment someone is anxious enough to search, but unsure enough to hesitate. It offers online counselling with qualified, experienced counsellors who understand anxiety, stress, relationship struggles, and everyday emotional overwhelm.</p>
+<p>Instead of a cold clinical experience, BetterLyf focuses on making that first step feel manageable, with flexible session formats, a judgement-free space, and counsellors who specialise in anxiety counselling for students, working professionals, and anyone in between. The goal isn't just to answer a search query. It's to turn that search into real, lasting support.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <p class="faq-q">Is online counselling as effective as in-person therapy for anxiety?</p>
+  <p class="faq-a">For most people, yes. Research and client feedback consistently show that online counselling can be just as effective as in-person sessions for managing anxiety, especially when sessions are consistent and the counsellor is a good fit.</p>
+</div>
+
+<div class="faq-item">
+  <p class="faq-q">How do I know if I need anxiety counselling or just extra rest?</p>
+  <p class="faq-a">If worry, restlessness, or racing thoughts are affecting your sleep, work, or relationships for more than a couple of weeks, it's worth speaking to a counsellor rather than waiting it out alone.</p>
+</div>
+
+<div class="faq-item">
+  <p class="faq-q">Is online counselling confidential?</p>
+  <p class="faq-a">Yes. Reputable online counselling platforms, including BetterLyf, treat every conversation as private and confidential, similar to an in-person therapy session.</p>
+</div>
+
+<div class="faq-item">
+  <p class="faq-q">How soon can I book a session after searching?</p>
+  <p class="faq-a">On most platforms, including BetterLyf, you can typically book your first session within the same day, which is exactly why online counselling has become the preferred first step for so many searchers.</p>
+</div>
+
+<div class="cta-block">
+  <h2>Ready to Turn Your Search Into Support?</h2>
+  <p>If you've been quietly searching for "anxiety counselling" or "online counselling," that search doesn't have to end in another open tab. BetterLyf's counsellors are here to listen, whenever you're ready.</p>
+  <span class="cta-btn"><a href="https://www.betterlyf.com/">Contact Us at BetterLyf</span></a>
+</div>
+
+</div>
+</main>
+
+<footer class="note">
+  <p>This report is for informational purposes and does not replace professional diagnosis. If you are in emotional distress, please reach out to a mental health professional.</p>
+</footer>
+
+</body>
+</html>
