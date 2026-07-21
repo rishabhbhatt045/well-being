@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Words That Heal: Depression Quotes for Every Stage of Recovery</title>
+<meta name="description" content="Explore depression quotes for every stage of recovery — from the darkest days to renewed hope. Gentle words, real comfort, and support from BetterLyf.">
+
+<style>
+  :root{
+    --ink:#2E2A3D;
+    --paper:#FAF7F2;
+    --lavender:#7C6FA8;
+    --lavender-deep:#564C7A;
+    --teal:#6FA39A;
+    --gold:#E3AE5C;
+    --blush:#F2E9E4;
+    --line:#E4DCEE;
+  }
+
+  *{box-sizing:border-box;}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Georgia','Iowan Old Style', serif;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .body-font{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+  }
+
+  .wrap{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 24px 64px;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:linear-gradient(160deg, #EFE9F7 0%, #F7EFE4 60%, #FAF7F2 100%);
+    padding:56px 24px 40px;
+    border-bottom:1px solid var(--line);
+  }
+
+  .eyebrow{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    font-size:12px;
+    color:var(--lavender-deep);
+    font-weight:600;
+    text-align:center;
+    margin-bottom:14px;
+  }
+
+  h1{
+    max-width:760px;
+    margin:0 auto;
+    text-align:center;
+    font-size:clamp(30px,5vw,44px);
+    line-height:1.18;
+    font-weight:400;
+    color:var(--lavender-deep);
+    letter-spacing:-0.01em;
+  }
+
+  .hero-sub{
+    max-width:560px;
+    margin:18px auto 0;
+    text-align:center;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size:16px;
+    color:#5B5468;
+  }
+
+  .hero-art{
+    display:block;
+    max-width:340px;
+    width:100%;
+    height:auto;
+    margin:32px auto 0;
+  }
+
+  /* ---------- Article body ---------- */
+  article{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size:17px;
+    color:#3A3548;
+    padding-top:40px;
+  }
+
+  article p{ margin:0 0 18px; }
+
+  h2{
+    font-family:'Georgia','Iowan Old Style', serif;
+    font-weight:400;
+    font-size:27px;
+    color:var(--lavender-deep);
+    margin:44px 0 14px;
+    padding-top:6px;
+    border-top:1px solid var(--line);
+  }
+
+  article > h2:first-of-type{ border-top:none; padding-top:0; }
+
+  h3{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:.08em;
+    color:var(--teal);
+    font-weight:700;
+    margin:30px 0 12px;
+  }
+
+  ul, ol{ padding-left:0; margin:0 0 18px; list-style:none; }
+
+  /* Quote cards */
+  .quote-list{ display:flex; flex-direction:column; gap:12px; margin-bottom:8px; }
+
+  .quote-card{
+    background:#fff;
+    border-left:3px solid var(--gold);
+    border-radius:4px;
+    padding:16px 20px;
+    box-shadow:0 1px 3px rgba(60,50,80,0.06);
+    font-family:'Georgia','Iowan Old Style', serif;
+    font-size:17px;
+    color:var(--ink);
+  }
+
+  .quote-card span{
+    display:block;
+    margin-top:8px;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size:13px;
+    color:#8A8296;
+    font-style:normal;
+  }
+
+  /* Step list */
+  .steps{ counter-reset: step; display:flex; flex-direction:column; gap:16px; margin:20px 0; }
+  .step{
+    display:flex;
+    gap:16px;
+    align-items:flex-start;
+  }
+  .step-num{
+    counter-increment: step;
+    flex:0 0 auto;
+    width:32px; height:32px;
+    border-radius:50%;
+    background:var(--lavender);
+    color:#fff;
+    display:flex; align-items:center; justify-content:center;
+    font-size:14px; font-weight:700;
+  }
+  .step-num::before{ content: counter(step); }
+  .step-body strong{ display:block; margin-bottom:2px; color:var(--lavender-deep); }
+
+  /* plain bullets */
+  .plain-list{ list-style:none; padding:0; margin:0 0 18px; }
+  .plain-list li{ position:relative; padding-left:22px; margin-bottom:10px; }
+  .plain-list li::before{
+    content:"";
+    position:absolute; left:0; top:9px;
+    width:7px; height:7px; border-radius:50%;
+    background:var(--teal);
+  }
+
+  /* Callout box */
+  .callout{
+    background:var(--blush);
+    border-radius:10px;
+    padding:24px 26px;
+    margin:32px 0;
+  }
+  .callout h3{ color:var(--lavender-deep); margin-top:0; }
+  .callout p:last-child{ margin-bottom:0; }
+
+  /* FAQ */
+  .faq-item{
+    border-bottom:1px solid var(--line);
+    padding:18px 0;
+  }
+  .faq-item:first-of-type{ border-top:1px solid var(--line); }
+  .faq-q{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-weight:700;
+    color:var(--lavender-deep);
+    margin-bottom:8px;
+    font-size:16px;
+  }
+
+  /* CTA */
+  .cta{
+    text-align:center;
+    background:linear-gradient(135deg, var(--lavender) 0%, var(--lavender-deep) 100%);
+    color:#fff;
+    border-radius:14px;
+    padding:40px 28px;
+    margin:48px 0 8px;
+  }
+  .cta h3{ color:#fff; font-size:22px; text-transform:none; letter-spacing:0; font-family:'Georgia','Iowan Old Style', serif; margin-bottom:10px;}
+  .cta p{ color:#EDE8F5; max-width:480px; margin:0 auto 22px; }
+  .cta-btn{
+    display:inline-block;
+    background:var(--gold);
+    color:#3A2E10;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-weight:700;
+    font-size:15px;
+    padding:13px 30px;
+    border-radius:30px;
+  }
+
+  .note{
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size:13.5px;
+    color:#8A8296;
+    border-top:1px solid var(--line);
+    margin-top:40px;
+    padding-top:18px;
+  }
+
+  footer{
+    text-align:center;
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size:13px;
+    color:#9C94A8;
+    padding:30px 24px 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="eyebrow">BetterLyf &nbsp;·&nbsp; Mental Wellness Journal</div>
+  <h1>Words That Heal: Depression Quotes for Every Stage of Recovery</h1>
+  <p class="hero-sub">Gentle words for the days that feel heavy, and stronger ones for the days you're finding your footing again.</p>
+
+  <img
+    class="hero-art"
+    alt="Depression quotes for recovery illustrated as a sunrise breaking over calm hills with a small growing sprout, symbolizing hope and healing"
+    src="data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20260'%3E%3Cdefs%3E%3ClinearGradient%20id='sky'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%23DCD3EF'/%3E%3Cstop%20offset='55%25'%20stop-color='%23F3DFC9'/%3E%3Cstop%20offset='100%25'%20stop-color='%23FAF3E6'/%3E%3C/linearGradient%3E%3ClinearGradient%20id='sun'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%23F3C877'/%3E%3Cstop%20offset='100%25'%20stop-color='%23E3AE5C'/%3E%3C/linearGradient%3E%3ClinearGradient%20id='hill1'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%238C7EB8'/%3E%3Cstop%20offset='100%25'%20stop-color='%23564C7A'/%3E%3C/linearGradient%3E%3ClinearGradient%20id='hill2'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%237C6FA8'/%3E%3Cstop%20offset='100%25'%20stop-color='%236FA39A'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='400'%20height='260'%20fill='url(%23sky)'/%3E%3Ccircle%20cx='200'%20cy='150'%20r='58'%20fill='url(%23sun)'/%3E%3Cpath%20d='M0%20190%20Q90%20140%20180%20185%20T400%20175%20V260%20H0%20Z'%20fill='url(%23hill2)'/%3E%3Cpath%20d='M0%20215%20Q110%20175%20220%20215%20T400%20205%20V260%20H0%20Z'%20fill='url(%23hill1)'/%3E%3Cline%20x1='96'%20y1='232'%20x2='96'%20y2='196'%20stroke='%233A3548'%20stroke-width='2.5'%20stroke-linecap='round'/%3E%3Cpath%20d='M96%20206%20Q84%20200%2082%20188%20Q94%20192%2096%20206%20Z'%20fill='%236FA39A'/%3E%3Cpath%20d='M96%20200%20Q108%20194%20112%20182%20Q98%20186%2096%20200%20Z'%20fill='%236FA39A'/%3E%3Cpath%20d='M96%20196%20Q86%20182%2088%20168%20Q102%20178%2096%20196%20Z'%20fill='%2380B6A9'/%3E%3C/svg%3E"
+  >
+</div>
+
+<div class="wrap">
+<article>
+
+<p>Roughly 1 in 5 people will experience a depressive episode significant enough to affect daily life at some point — yet most of us search for the right words to describe it long before we search for the right treatment. That's exactly why <strong><a href="https://www.betterlyf.com/articles/depression/depression-quotes">depression quotes</strong></a> get searched, saved, and shared millions of times over: they put language to something that often feels impossible to explain, even to ourselves.</p>
+
+<p>This article walks through depression quotes for every stage of recovery — the numb days, the days you're barely holding on, the days hope starts creeping back in, and the days you finally feel like yourself again. Along the way, we'll also look at how to actually use these words, not just read them, and when it's time to bring in more support than a quote can offer.</p>
+
+<h2>Why Depression Quotes Matter (More Than You'd Think)</h2>
+
+<p>A good quote doesn't cure depression. But it does something quietly powerful: it tells you that someone else has stood exactly where you're standing, and made it through to the other side.</p>
+
+<p>Psychologists call this "universality" — one of the core reasons support groups and therapy work. When you read a sentence that captures a feeling you thought was unspeakable, the isolation of depression loosens, even if only for a moment. That small crack of relief is often the first step toward reaching out for real support.</p>
+
+<p>At BetterLyf, we hear this from clients often: it wasn't one big breakthrough that started their healing, it was a small moment — a line they read, a conversation they had — that made them feel less alone. Words are rarely the whole solution, but they can be the doorway.</p>
+
+<h2>Depression Quotes for Every Stage of Recovery</h2>
+
+<p>Recovery from depression isn't a straight line, but most people move through a few recognizable phases. Here are gentle words for each one.</p>
+
+<h3>Stage 1 — When Everything Feels Heavy</h3>
+<p>This is the stage where getting out of bed feels like an achievement. These quotes aren't meant to fix anything — just to sit with you.</p>
+
+<div class="quote-list">
+  <div class="quote-card">"You don't have to see the whole staircase, just take the first step."<span>— Often attributed to Martin Luther King Jr.</span></div>
+  <div class="quote-card">"This feeling is real, but it is not permanent."<span>— BetterLyf reminder</span></div>
+  <div class="quote-card">"Even the darkest night will end, and the sun will rise."<span>— Victor Hugo, adapted</span></div>
+  <div class="quote-card">"You are not lazy, broken, or weak. You are tired. That's allowed."<span>— Anonymous</span></div>
+</div>
+
+<h3>Stage 2 — Finding the Strength to Keep Going</h3>
+<p>Once the heaviest fog starts to lift slightly, this stage is about small, stubborn persistence.</p>
+
+<div class="quote-list">
+  <div class="quote-card">"Rock bottom became the solid foundation on which I rebuilt my life."<span>— J.K. Rowling</span></div>
+  <div class="quote-card">"You've survived 100% of your worst days so far."<span>— Anonymous</span></div>
+  <div class="quote-card">"Healing is not linear, and that is completely okay."<span>— BetterLyf reminder</span></div>
+  <div class="quote-card">"Little by little, one travels far."<span>— J.R.R. Tolkien</span></div>
+</div>
+
+<h3>Stage 3 — Rediscovering Hope and Light</h3>
+<p>Somewhere in the middle of recovery, hope stops feeling like a foreign concept and starts feeling like a possibility again.</p>
+
+<div class="quote-list">
+  <div class="quote-card">"There is a crack in everything. That's how the light gets in."<span>— Leonard Cohen</span></div>
+  <div class="quote-card">"Hope is being able to see there is light despite all of the darkness."<span>— Desmond Tutu</span></div>
+  <div class="quote-card">"You are allowed to be both a masterpiece and a work in progress."<span>— Anonymous</span></div>
+  <div class="quote-card">"Slowly but surely, the sun is rising again inside me."<span>— BetterLyf reminder</span></div>
+</div>
+
+<h3>Stage 4 — Embracing Healing and Growth</h3>
+<p>The final stretch isn't about "getting back to normal" — it's about becoming someone who understands themselves more deeply than before.</p>
+
+<div class="quote-list">
+  <div class="quote-card">"What lies behind us and what lies before us are tiny matters compared to what lies within us."<span>— Ralph Waldo Emerson</span></div>
+  <div class="quote-card">"I am not what happened to me. I am what I choose to become."<span>— Carl Jung, paraphrased</span></div>
+  <div class="quote-card">"The wound is the place where the light enters you."<span>— Rumi</span></div>
+  <div class="quote-card">"You didn't just survive. You learned how to live again."<span>— BetterLyf reminder</span></div>
+</div>
+
+<h2>How to Actually Use These Quotes in Your Healing Journey</h2>
+<p>A quote saved in your camera roll doesn't do much on its own. Here's how to make these words work harder for you.</p>
+
+<div class="steps">
+  <div class="step">
+    <div class="step-num"></div>
+    <div class="step-body"><strong>Pick one quote a week, not twenty.</strong>One sentence you actually sit with beats a whole list you skim past.</div>
+  </div>
+  <div class="step">
+    <div class="step-num"></div>
+    <div class="step-body"><strong>Write it somewhere you'll actually see it.</strong>A sticky note on your mirror or a phone lock screen works better than a saved folder you never open.</div>
+  </div>
+  <div class="step">
+    <div class="step-num"></div>
+    <div class="step-body"><strong>Journal one honest line about why it resonates.</strong>The quote sparks the thought; your own words do the healing.</div>
+  </div>
+  <div class="step">
+    <div class="step-num"></div>
+    <div class="step-body"><strong>Share it with someone you trust.</strong>Sending a quote to a friend can be an easier first step than saying "I'm struggling" out loud.</div>
+  </div>
+  <div class="step">
+    <div class="step-num"></div>
+    <div class="step-body"><strong>Bring it to a therapy session.</strong>A quote that hit you hard is often a useful starting point for a conversation with a counsellor.</div>
+  </div>
+</div>
+
+<div class="callout">
+  <h3>When Words Aren't Enough</h3>
+  <p>Quotes can validate a feeling, but they can't diagnose, treat, or replace professional care. If low mood has lasted more than two weeks, or is affecting your sleep, appetite, work, or relationships, that's a sign it may be time to talk to a licensed mental health professional rather than only reading about it. BetterLyf connects you with qualified, experienced counsellors and therapists for confidential online sessions — from the privacy of your own space, on your own schedule.</p>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <div class="faq-q">Can depression quotes actually help with depression?</div>
+  <p>They can offer comfort, validation, and a sense that you're not alone, which is genuinely helpful for emotional wellbeing. However, quotes are a support tool, not a treatment — ongoing or severe depression benefits most from professional therapy, and sometimes medication guided by a psychiatrist.</p>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">What is a good depression quote to send a friend who is struggling?</div>
+  <p>Something simple and non-judgmental tends to land best, such as "You don't have to be strong all the time — I'm here." Pair it with an actual check-in, like asking how they're really doing, rather than the quote alone.</p>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">How do I know if I need more than quotes and self-help content?</div>
+  <p>If sadness has lasted most days for two weeks or more, or you've noticed changes in sleep, appetite, energy, or motivation that are affecting daily life, it's worth speaking with a mental health professional. BetterLyf's counsellors can help you understand what you're experiencing and build a plan forward.</p>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Are depression quotes different from motivational quotes?</div>
+  <p>Yes. Motivational quotes often push you to "do more," which can feel dismissive during depression. Depression-specific quotes tend to focus on validation and gentleness first, encouragement second — meeting you where you are instead of where you "should" be.</p>
+</div>
+
+<h2>You Deserve More Than Just Words</h2>
+<p>Depression quotes can be a comforting companion on hard days — a reminder that this feeling has a name, an end, and other people who've lived through it. But real recovery usually needs more than a sentence on a screen. It needs consistent support, a safe space to talk honestly, and sometimes, professional guidance to help you actually get there.</p>
+
+<p>If any of the quotes above felt a little too familiar, that feeling is worth listening to — and worth talking about.</p>
+
+<div class="cta">
+  <h3>You don't have to carry this alone</h3>
+  <p>BetterLyf's licensed counsellors offer confidential online therapy for depression, anxiety, and everyday emotional struggles — at a pace that feels right for you.</p>
+  <span class="cta-btn"><a href="https://www.betterlyf.com/know-your-counselor">Talk to a BetterLyf Counsellor</span></a>
+</div>
+
+<p class="note">This article is intended for general informational and emotional support purposes and is not a substitute for professional diagnosis or treatment. If you are having thoughts of suicide or self-harm, please reach out immediately to a crisis helpline or mental health professional in your area — you deserve support right now, not just later.</p>
+
+</article>
+</div>
+
+<footer>&copy; BetterLyf — Mental Wellness Journal</footer>
+
+</body>
+</html>
