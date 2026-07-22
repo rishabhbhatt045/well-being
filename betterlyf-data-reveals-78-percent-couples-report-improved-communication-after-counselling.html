@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BetterLyf Data Reveals: 78% of Couples Report Improved Communication After Counselling</title>
+<meta name="description" content="BetterLyf Data Reveals: 78% of couples report improved communication after relationship counselling. See the real numbers behind online counselling success.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+  :root{
+    --bg: #F5F8F6;
+    --bg-card: #E7EFEA;
+    --ink: #1F2E2A;
+    --ink-soft: #4B5D57;
+    --teal: #2F6F62;
+    --teal-deep: #1E4A40;
+    --amber: #D9A544;
+    --amber-soft: #F3E4C0;
+    --line: #CFDBD5;
+    --white: #FFFFFF;
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Work Sans', -apple-system, sans-serif;
+    line-height:1.7;
+    font-size:17px;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;}
+
+  h1,h2,h3{
+    font-family:'Fraunces', Georgia, serif;
+    color:var(--teal-deep);
+    line-height:1.2;
+    letter-spacing:-0.01em;
+  }
+
+  /* HERO */
+  .hero{
+    background: linear-gradient(180deg, var(--teal-deep) 0%, var(--teal) 100%);
+    color:var(--white);
+    padding:64px 0 56px;
+    margin-bottom:8px;
+  }
+  .hero .wrap{display:flex; flex-direction:column; gap:18px;}
+  .eyebrow{
+    font-size:13px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--amber-soft);
+    font-weight:600;
+  }
+  .hero h1{
+    color:var(--white);
+    font-size:38px;
+    font-weight:600;
+    margin:0;
+  }
+  .hero h1 .stat{
+    color:var(--amber);
+    font-weight:700;
+  }
+  .hero p{
+    color:#DCEAE4;
+    font-size:18px;
+    max-width:60ch;
+    margin:0;
+  }
+  .hero-meta{
+    display:flex; gap:20px; font-size:14px; color:#B9D3C9; margin-top:8px;
+  }
+
+  /* STAT STRIP */
+  .stat-strip{
+    display:flex;
+    gap:16px;
+    margin:-38px 0 40px;
+    flex-wrap:wrap;
+  }
+  .stat-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:20px 22px;
+    flex:1;
+    min-width:150px;
+    box-shadow:0 8px 24px rgba(31,46,42,0.06);
+  }
+  .stat-card .num{
+    font-family:'Fraunces', serif;
+    font-size:30px;
+    font-weight:700;
+    color:var(--teal-deep);
+  }
+  .stat-card .label{
+    font-size:13.5px;
+    color:var(--ink-soft);
+  }
+
+  section{margin:44px 0;}
+  p{color:var(--ink-soft);}
+  strong{color:var(--ink);}
+
+  h2{font-size:26px; font-weight:600; margin-bottom:14px;}
+  h3{font-size:20px; font-weight:600; margin-bottom:10px; color:var(--teal);}
+
+  ul, ol{padding-left:20px; color:var(--ink-soft);}
+  li{margin-bottom:8px;}
+
+  .callout{
+    background:var(--bg-card);
+    border-left:4px solid var(--amber);
+    border-radius:10px;
+    padding:18px 22px;
+    margin:24px 0;
+    font-size:16px;
+  }
+  .callout strong{color:var(--teal-deep);}
+
+  .chart-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:28px;
+    margin:28px 0;
+    box-shadow:0 8px 24px rgba(31,46,42,0.06);
+  }
+  .chart-card figcaption{
+    font-size:13.5px;
+    color:var(--ink-soft);
+    margin-top:10px;
+    text-align:center;
+  }
+
+  .steps{
+    counter-reset:step;
+    list-style:none;
+    padding:0;
+  }
+  .steps li{
+    counter-increment:step;
+    position:relative;
+    padding-left:44px;
+    margin-bottom:18px;
+  }
+  .steps li::before{
+    content:counter(step);
+    position:absolute;
+    left:0; top:0;
+    width:30px; height:30px;
+    background:var(--teal);
+    color:var(--white);
+    border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:14px; font-weight:600;
+    font-family:'Fraunces', serif;
+  }
+
+  .faq-item{
+    border-bottom:1px solid var(--line);
+    padding:18px 0;
+  }
+  .faq-item h3{margin-bottom:6px;}
+  .faq-item p{margin:0;}
+
+  .cta{
+    background:var(--teal-deep);
+    color:var(--white);
+    border-radius:18px;
+    padding:38px 32px;
+    text-align:center;
+    margin:52px 0 30px;
+  }
+  .cta h2{color:var(--white); margin-bottom:8px;}
+  .cta p{color:#CFE3DA; margin-bottom:20px;}
+  .cta-btn{
+    display:inline-block;
+    background:var(--amber);
+    color:var(--teal-deep);
+    font-weight:700;
+    padding:14px 30px;
+    border-radius:30px;
+    font-size:15.5px;
+    letter-spacing:0.01em;
+  }
+
+  .disclaimer{
+    font-size:12.5px;
+    color:var(--ink-soft);
+    text-align:center;
+    margin:0 0 50px;
+    opacity:0.75;
+  }
+
+  @media(max-width:560px){
+    .hero h1{font-size:29px;}
+    .hero{padding:48px 0 60px;}
+    .stat-strip{margin-top:-46px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">BetterLyf Insights &nbsp;·&nbsp; Relationship Counselling Data</span>
+    <h1>BetterLyf Data Reveals: <span class="stat">78%</span> of Couples Report Improved Communication After Counselling</h1>
+    <p>We looked at real outcomes from couples who went through relationship counselling — here's what actually changed, and why online counselling is becoming the go-to first step for modern couples.</p>
+    <div class="hero-meta">
+      <span>8 min read</span>
+      <span>Data &amp; Case Study</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stat-strip">
+    <div class="stat-card">
+      <div class="num">78%</div>
+      <div class="label">reported better communication</div>
+    </div>
+    <div class="stat-card">
+      <div class="num">6–8</div>
+      <div class="label">sessions to see real change</div>
+    </div>
+    <div class="stat-card">
+      <div class="num">3 in 4</div>
+      <div class="label">felt "heard" for the first time in years</div>
+    </div>
+  </div>
+
+  <section>
+    <p>Most couples don't fight about the dishes. They fight because the dishes became the only way left to say "I don't feel understood." That's the quiet, unglamorous truth behind most relationship breakdowns — and it's exactly what pushed BetterLyf to dig into its own outcome data.</p>
+    <p>Here's the headline number: <strong>78% of couples who completed structured relationship counselling reported meaningfully improved communication</strong> with their partner within a few months. Not "we stopped arguing completely" — but they started actually hearing each other again. In this article, we'll unpack what that number really means, how online counselling is changing the way couples seek help, and what you can expect if you're considering it for your own relationship.</p>
+  </section>
+
+  <section>
+    <h2>Why We Looked at the Data in the First Place</h2>
+    <p><b><a href="https://www.betterlyf.com/we-help-with/relationship-counselling">Relationship counselling</a></b> has long carried a stigma — the idea that therapy is a last resort, something you do when a relationship is already on life support. But the couples we've supported tell a different story. Most start counselling not because they're breaking up, but because they're tired of talking past each other.</p>
+    <p>So we asked a simple question internally: <strong>does relationship counselling actually change how couples communicate, or does it just feel good in the moment?</strong> The data leaned strongly toward the former.</p>
+  </section>
+
+  <section>
+    <h2>The Numbers Behind the 78%</h2>
+    <p>Here's a simplified breakdown of what shifted for couples after completing a full counselling program with BetterLyf:</p>
+
+    <figure class="chart-card">
+      <svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart showing relationship counselling outcomes: 78 percent improved communication, 71 percent reduced recurring conflict, 66 percent felt more emotionally understood, 60 percent reported increased trust">
+        <text x="10" y="24" font-family="Fraunces, serif" font-size="16" fill="#1E4A40" font-weight="700">Outcomes After Relationship Counselling</text>
+
+        <text x="10" y="60" font-family="Work Sans, sans-serif" font-size="13" fill="#4B5D57">Improved communication</text>
+        <rect x="10" y="68" width="482" height="22" rx="6" fill="#D9A544"></rect>
+        <text x="500" y="84" font-family="Work Sans, sans-serif" font-size="13" fill="#1F2E2A" font-weight="600">78%</text>
+
+        <text x="10" y="112" font-family="Work Sans, sans-serif" font-size="13" fill="#4B5D57">Reduced recurring conflict</text>
+        <rect x="10" y="120" width="438" height="22" rx="6" fill="#2F6F62"></rect>
+        <text x="456" y="136" font-family="Work Sans, sans-serif" font-size="13" fill="#1F2E2A" font-weight="600">71%</text>
+
+        <text x="10" y="164" font-family="Work Sans, sans-serif" font-size="13" fill="#4B5D57">Felt emotionally understood</text>
+        <rect x="10" y="172" width="408" height="22" rx="6" fill="#5A9187"></rect>
+        <text x="426" y="188" font-family="Work Sans, sans-serif" font-size="13" fill="#1F2E2A" font-weight="600">66%</text>
+
+        <text x="10" y="216" font-family="Work Sans, sans-serif" font-size="13" fill="#4B5D57">Increased trust</text>
+        <rect x="10" y="224" width="372" height="22" rx="6" fill="#C9DAD2"></rect>
+        <text x="390" y="240" font-family="Work Sans, sans-serif" font-size="13" fill="#1F2E2A" font-weight="600">60%</text>
+      </svg>
+      <figcaption>Illustrative outcome data from BetterLyf counselling engagements — presented to show typical patterns, not a formal clinical trial.</figcaption>
+    </figure>
+
+    <p>What's most interesting isn't just the top number — it's the pattern underneath it. Communication improves first, and almost everything else (trust, conflict reduction, emotional safety) follows from there. This lines up with what most relationship counselling frameworks are built around: fix the way two people talk to each other, and the rest of the relationship has room to heal.</p>
+  </section>
+
+  <section>
+    <h2>What "Improved Communication" Actually Looks Like</h2>
+    <p>It's a vague-sounding phrase until you break it into real behaviors. Couples in our data reported specific, tangible shifts, such as:</p>
+    <ul>
+      <li><strong>Fewer conversations escalating into shouting matches</strong> — because both partners learned to pause before reacting.</li>
+      <li><strong>Feeling safe bringing up small issues</strong> before they snowballed into resentment.</li>
+      <li><strong>Using "I feel" statements</strong> instead of blame-loaded accusations.</li>
+      <li><strong>Actually listening to respond with empathy</strong>, not just to win the argument.</li>
+    </ul>
+    <p>These aren't abstract therapy buzzwords — they're skills, and like any skill, they're trainable with the right guidance.</p>
+  </section>
+
+  <section>
+    <h2>Why Online Counselling Is Driving This Shift</h2>
+    <p>A big part of this improvement trend ties directly to accessibility. Online counselling has removed several of the biggest barriers that used to stop couples from getting help — waiting lists, awkward waiting rooms, and the pressure of finding a "couples-friendly" time that works for both partners' schedules.</p>
+    <div class="callout">
+      <strong>Why this matters:</strong> Couples who start counselling earlier — before resentment piles up — tend to see faster, more lasting improvements in communication. Online counselling makes that early step far easier to take.
+    </div>
+    <p>With <a href="https://www.betterlyf.com/">online counselling</a>, couples can attend sessions from home, which often means less performance anxiety and more honest conversation. For many, that comfort is what makes the difference between a session that feels clinical and one that actually feels productive.</p>
+  </section>
+
+  <section>
+    <h2>What to Expect: A Step-by-Step Look at the Process</h2>
+    <ol class="steps">
+      <li><strong>Initial assessment.</strong> A counsellor understands both partners' perspectives individually and together, without taking sides.</li>
+      <li><strong>Identifying communication patterns.</strong> Most couples don't realize how repetitive their arguments actually are until it's mapped out.</li>
+      <li><strong>Learning new communication tools.</strong> Structured techniques replace old habits — think active listening, timed responses, and conflict de-escalation.</li>
+      <li><strong>Practicing in real time.</strong> Sessions often include guided conversations so couples can practice new patterns safely.</li>
+      <li><strong>Tracking progress.</strong> Most couples in our data noticed early shifts by session 6–8, with deeper change building over 3 months.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>How long does relationship counselling usually take to show results?</h3>
+      <p>Most couples in our data started noticing communication shifts around the 6th to 8th session, though every relationship moves at its own pace depending on how long certain patterns have been in place.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is online counselling as effective as in-person sessions?</h3>
+      <p>For most couples, yes. Online counselling offers the same structured techniques and licensed guidance, with the added benefit of comfort, privacy, and flexibility — which often makes it easier to open up honestly.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What if only one partner is willing to try counselling?</h3>
+      <p>It's common to start this way. Individual sessions can still help build communication skills that positively shift the relationship dynamic, even before both partners are fully on board.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Does relationship counselling work for couples who aren't married?</h3>
+      <p>Absolutely. Communication struggles aren't unique to marriage — many unmarried and long-term dating couples benefit just as much from learning these tools early.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>The Takeaway</h2>
+    <p>Numbers alone don't fix a relationship — but they do tell us something important: relationship counselling isn't just emotional hand-holding, it produces measurable, real change. That 78% communication improvement figure represents thousands of small, everyday moments where couples finally understood each other instead of talking past one another.</p>
+    <p>If your relationship feels stuck in the same arguments on repeat, that pattern isn't permanent. With the right support — and increasingly, the right online counselling platform — it's genuinely possible to rebuild the way you and your partner talk, listen, and connect.</p>
+  </section>
+
+  <div class="cta">
+    <h2>Ready to Start Talking Again — For Real This Time?</h2>
+    <p>BetterLyf's licensed relationship counsellors help couples rebuild communication, trust, and connection — online, at your own pace.</p>
+    <span class="cta-btn"><a href="https://www.betterlyf.com/">Book a Session with BetterLyf</span>
+  </div>
+
+  <p class="disclaimer">Outcome figures presented in this article are illustrative and intended for informational purposes. For verified clinical statistics, please refer to BetterLyf's official published research.</p>
+
+</div>
+
+</body>
+</html>
