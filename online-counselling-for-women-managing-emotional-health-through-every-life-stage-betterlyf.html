@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Counselling for Women: Managing Emotional Health Through Every Life Stage | BetterLyf</title>
+<meta name="description" content="Discover how online counselling for women supports emotional health at every life stage — from your 20s to menopause and beyond. Start healing with BetterLyf.">
+<style>
+  :root{
+    --cream:#FBF7F2;
+    --cream-deep:#F3ECE2;
+    --plum:#3E2F45;
+    --plum-soft:#6B5670;
+    --rose:#C97B84;
+    --rose-deep:#B5626D;
+    --sage:#8FA383;
+    --sage-deep:#728569;
+    --gold:#D4A574;
+    --line:#E4D9CC;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    color:var(--plum);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height:1.7;
+    font-size:17px;
+  }
+  h1, h2, h3, .display{
+    font-family:Georgia, "Times New Roman", serif;
+    color:var(--plum);
+    font-weight:700;
+    letter-spacing:-0.01em;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:0 24px;}
+
+  /* Hero */
+  .hero{
+    background:linear-gradient(180deg, var(--cream-deep) 0%, var(--cream) 100%);
+    padding:56px 0 40px;
+    border-bottom:1px solid var(--line);
+  }
+  .eyebrow{
+    display:inline-block;
+    font-size:13px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--rose-deep);
+    font-weight:700;
+    margin-bottom:14px;
+  }
+  h1{
+    font-size:clamp(28px, 5vw, 42px);
+    line-height:1.15;
+    margin:0 0 18px;
+  }
+  .hero-sub{
+    font-size:18px;
+    color:var(--plum-soft);
+    max-width:600px;
+    margin:0 0 30px;
+  }
+  .hero-cta{
+    display:inline-block;
+    background:var(--rose);
+    color:#fff;
+    padding:13px 26px;
+    border-radius:30px;
+    font-weight:700;
+    font-size:15px;
+    text-decoration:none;
+    box-shadow:0 6px 16px rgba(201,123,132,0.35);
+  }
+
+  /* Illustration */
+  .illustration{
+    width:100%;
+    max-width:712px;
+    margin:36px auto 0;
+    display:block;
+  }
+
+  main{padding:40px 0 20px;}
+
+  p{margin:0 0 18px; color:#4A3E4E;}
+  h2{
+    font-size:26px;
+    margin:44px 0 16px;
+    padding-top:6px;
+    position:relative;
+  }
+  h2::before{
+    content:"";
+    display:block;
+    width:44px;
+    height:4px;
+    background:var(--sage);
+    border-radius:2px;
+    margin-bottom:14px;
+  }
+  h3{
+    font-size:19px;
+    margin:26px 0 10px;
+    color:var(--rose-deep);
+  }
+
+  ul, ol{padding-left:22px; margin:0 0 20px;}
+  li{margin-bottom:9px; color:#4A3E4E;}
+
+  .stage-card{
+    background:#fff;
+    border:1px solid var(--line);
+    border-left:4px solid var(--sage);
+    border-radius:10px;
+    padding:18px 22px;
+    margin:0 0 16px;
+  }
+  .stage-card h3{margin-top:0;}
+  .stage-card p{margin-bottom:0;}
+
+  .steps{list-style:none; padding:0; counter-reset:step;}
+  .steps li{
+    counter-increment:step;
+    position:relative;
+    padding:4px 0 4px 46px;
+    margin-bottom:20px;
+  }
+  .steps li::before{
+    content:counter(step);
+    position:absolute;
+    left:0; top:0;
+    width:32px; height:32px;
+    background:var(--plum);
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:Georgia, serif;
+    font-weight:700;
+    font-size:15px;
+  }
+  .steps strong{color:var(--plum);}
+
+  .callout{
+    background:var(--cream-deep);
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:22px 24px;
+    margin:30px 0;
+  }
+  .callout p{margin-bottom:0; color:var(--plum-soft); font-style:italic;}
+
+  .faq-item{
+    border-bottom:1px solid var(--line);
+    padding:18px 0;
+  }
+  .faq-item:last-child{border-bottom:none;}
+  .faq-item h3{
+    margin:0 0 8px;
+    color:var(--plum);
+    font-size:17px;
+  }
+  .faq-item p{margin-bottom:0;}
+
+  .tag-list{
+    display:flex; flex-wrap:wrap; gap:8px;
+    margin:0 0 8px;
+  }
+  .tag{
+    background:var(--sage);
+    color:#fff;
+    font-size:12.5px;
+    font-weight:700;
+    padding:5px 12px;
+    border-radius:20px;
+  }
+
+  .cta-block{
+    background:var(--plum);
+    color:#fff;
+    border-radius:16px;
+    padding:38px 30px;
+    text-align:center;
+    margin:48px 0 30px;
+  }
+  .cta-block h2{
+    color:#fff;
+    margin-top:0;
+  }
+  .cta-block h2::before{background:var(--gold);}
+  .cta-block p{color:#E4D9E6; max-width:520px; margin:0 auto 22px;}
+  .cta-btn{
+    display:inline-block;
+    background:var(--gold);
+    color:var(--plum);
+    padding:14px 32px;
+    border-radius:30px;
+    font-weight:700;
+    text-decoration:none;
+  }
+
+  footer{
+    text-align:center;
+    padding:20px 0 50px;
+    color:var(--plum-soft);
+    font-size:13.5px;
+  }
+
+  @media(max-width:600px){
+    .hero{padding:40px 0 30px;}
+    h1{font-size:28px;}
+    main{padding:28px 0 10px;}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">BetterLyf · Women's Emotional Wellbeing</span>
+    <h1>Online Counselling for Women: Managing Emotional Health Through Every Life Stage</h1>
+    <p class="hero-sub">From your twenties to menopause and beyond, your emotions change shape — and so should your support system. Here's how online counselling helps women feel steady at every turn.</p>
+    <span class="hero-cta">Talk to a BetterLyf Therapist</span>
+
+    <svg class="illustration" viewBox="0 0 700 220" role="img" aria-labelledby="illTitle illDesc" xmlns="http://www.w3.org/2000/svg">
+      <title id="illTitle">Online counselling for women through every life stage</title>
+      <desc id="illDesc">An illustration of a gentle rising path with figures representing a woman at different life stages, symbolizing emotional growth supported by online therapy.</desc>
+      <rect x="0" y="0" width="700" height="220" fill="#F3ECE2" rx="18"/>
+      <path d="M20,170 C120,170 120,120 220,120 C320,120 320,80 420,80 C520,80 520,50 620,50" stroke="#8FA383" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <circle cx="20" cy="170" r="9" fill="#C97B84"/>
+      <circle cx="220" cy="120" r="9" fill="#C97B84"/>
+      <circle cx="420" cy="80" r="9" fill="#C97B84"/>
+      <circle cx="620" cy="50" r="9" fill="#D4A574"/>
+      <circle cx="70" cy="150" r="16" fill="#3E2F45"/>
+      <rect x="60" y="164" width="20" height="26" rx="8" fill="#3E2F45"/>
+      <circle cx="270" cy="100" r="16" fill="#3E2F45"/>
+      <rect x="260" y="114" width="20" height="26" rx="8" fill="#3E2F45"/>
+      <circle cx="470" cy="62" r="16" fill="#3E2F45"/>
+      <rect x="460" y="76" width="20" height="26" rx="8" fill="#3E2F45"/>
+      <circle cx="640" cy="32" r="16" fill="#3E2F45"/>
+      <rect x="630" y="46" width="20" height="26" rx="8" fill="#3E2F45"/>
+      <text x="40" y="205" font-family="Georgia, serif" font-size="11" fill="#6B5670">20s</text>
+      <text x="235" y="205" font-family="Georgia, serif" font-size="11" fill="#6B5670">30s-40s</text>
+      <text x="445" y="205" font-family="Georgia, serif" font-size="11" fill="#6B5670">Midlife</text>
+      <text x="605" y="205" font-family="Georgia, serif" font-size="11" fill="#6B5670">60s+</text>
+    </svg>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <p>Nearly <strong>1 in 3 women</strong> will experience a diagnosable mental health condition in her lifetime, according to the World Health Organization — often tied to shifts that men simply don't go through: menstrual cycles, pregnancy, postpartum recovery, and menopause. Yet most women wait years before ever speaking to someone about it. That's exactly where <strong>online counselling for women</strong> is changing the story, making emotional support as easy to reach as your phone. In this guide, we'll walk through how online therapy adapts to every life stage a woman moves through, what to expect from the process, and how BetterLyf makes starting that first conversation feel a little less daunting.</p>
+
+  <h2>Why Women Need Emotional Support That's Built Differently</h2>
+  <p>Women's emotional lives are rarely linear. Hormonal shifts, caregiving responsibilities, career pressure, body image, and relationship dynamics all layer on top of one another — often at the same time. A one-size-fits-all approach to therapy misses this complexity.</p>
+  <p>That's why online therapy has become such a natural fit. It removes the logistical barriers — commuting, childcare, taking time off work — that have historically kept women from prioritising their own mental health. With <b><a href="https://www.betterlyf.com/">online counselling</a></b>, support fits into the life you're already living, not the other way around.</p>
+
+  <div class="callout">
+    <p>"The biggest shift I saw in myself wasn't the advice my counsellor gave me — it was finally having thirty minutes a week that belonged only to me." — a BetterLyf client, on starting online therapy after becoming a mother.</p>
+  </div>
+
+  <h2>Emotional Health Across Every Life Stage</h2>
+  <p>Here's a closer look at what women commonly navigate at each stage — and how virtual counselling meets them there.</p>
+
+  <div class="stage-card">
+    <h3>🌱 Late Teens & Twenties: Identity, Anxiety & Independence</h3>
+    <p>This stage often brings academic pressure, career decisions, dating stress, and the quiet anxiety of "figuring life out." Online counselling helps young women build coping tools early, before patterns of stress or self-doubt become deeply rooted.</p>
+  </div>
+
+  <div class="stage-card">
+    <h3>💼 Thirties: Career, Relationships & the Motherhood Question</h3>
+    <p>Balancing ambition, partnership, and the pressure to "have it figured out" can quietly wear women down. Therapists help clients set boundaries at work, navigate relationship transitions, and manage the mental load that so often falls on women by default.</p>
+  </div>
+
+  <div class="stage-card">
+    <h3>🤱 Pregnancy & Postpartum: The Fourth Trimester</h3>
+    <p>Up to 1 in 7 new mothers experience postpartum depression, yet many never seek help due to stigma or simply lacking the time to leave the house. Online therapy meets new mothers exactly where they are — often literally on the couch, baby included.</p>
+  </div>
+
+  <div class="stage-card">
+    <h3>🔥 Midlife & Menopause: Hormones, Identity & Grief</h3>
+    <p>Perimenopause and menopause bring mood swings, irritability, sleep disruption, and sometimes a quiet grief over changing identity and appearance. Counselling helps women reframe this stage as a transition, not a loss — and manage the emotional symptoms alongside physical ones.</p>
+  </div>
+
+  <div class="stage-card">
+    <h3>🌸 Sixties & Beyond: Purpose, Loneliness & Change</h3>
+    <p>Retirement, an empty nest, or the loss of a partner can bring a new kind of loneliness. Online counselling offers consistent, familiar support — especially valuable for women who find travel or mobility more difficult with age.</p>
+  </div>
+
+  <h2>How Online Counselling Supports Women at Every Stage</h2>
+  <p>Whatever stage you're in, virtual counselling offers a few consistent advantages over traditional in-person therapy:</p>
+  <ul>
+    <li><strong>Privacy and comfort</strong> — talk from your own home, without the anxiety of a waiting room.</li>
+    <li><strong>Flexible scheduling</strong> — sessions that fit around work, kids, or caregiving duties.</li>
+    <li><strong>Wider access to specialists</strong> — connect with a therapist who understands women's mental health specifically, not just the nearest available one.</li>
+    <li><strong>Multiple formats</strong> — choose between video, audio, or chat-based counselling depending on your comfort level.</li>
+    <li><strong>Lower cost</strong> — online therapy is typically more affordable than in-person sessions, with no travel expenses.</li>
+    <li><strong>Continuity through change</strong> — keep the same therapist even if you move cities or your schedule shifts.</li>
+  </ul>
+
+  <h2>How to Start Online Therapy with BetterLyf: A Step-by-Step Guide</h2>
+  <ol class="steps">
+    <li><strong>Take the free assessment.</strong> Answer a short questionnaire so BetterLyf can understand what you're going through and what kind of support might help most.</li>
+    <li><strong>Get matched with a therapist.</strong> Based on your responses, you're paired with a licensed counsellor experienced in women's emotional health — whether that's anxiety, postpartum support, relationship stress, or menopause-related mood changes.</li>
+    <li><strong>Choose your format.</strong> Pick video calls, phone sessions, or text-based chat therapy, whichever feels most comfortable for you.</li>
+    <li><strong>Book a session that fits your schedule.</strong> Early morning before the kids wake up, during a lunch break, or late at night — sessions are built around your calendar.</li>
+    <li><strong>Begin your sessions.</strong> Work with your therapist on a plan tailored to your stage of life, revisiting and adjusting goals as you go.</li>
+    <li><strong>Track your progress.</strong> Many women find it helpful to journal between sessions or use mood-tracking tools to notice patterns over time.</li>
+  </ol>
+
+  <h2>Why Women Choose BetterLyf</h2>
+  <div class="tag-list">
+    <span class="tag">Licensed Therapists</span>
+    <span class="tag">100% Confidential</span>
+    <span class="tag">Flexible Formats</span>
+    <span class="tag">Affordable Plans</span>
+  </div>
+  <p>BetterLyf was built around a simple idea: emotional support shouldn't be complicated to access. Every therapist on the platform is licensed and trained to work with the issues that show up most often in women's lives — from anxiety and burnout to postpartum depression and menopause-related mood changes. Sessions are private, judgment-free, and designed to move at your pace, not a clinical checklist.</p>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>Is online counselling as effective as in-person therapy?</h3>
+    <p>Research consistently shows that online therapy can be just as effective as face-to-face counselling for conditions like anxiety, depression, and stress, especially when sessions happen regularly and consistently.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I know if I need therapy or just a bad week?</h3>
+    <p>If low mood, anxiety, irritability, or exhaustion last more than two weeks and start affecting your work, relationships, or daily routine, it's worth speaking to a counsellor — even one session can help you understand what's going on.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is online therapy confidential?</h3>
+    <p>Yes. Reputable platforms like BetterLyf use secure, encrypted sessions, and therapists follow the same confidentiality standards as in-person practice.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can online counselling help with postpartum depression?</h3>
+    <p>Absolutely. Many new mothers prefer online therapy specifically because it removes the need to arrange childcare or travel, making consistent support realistic during a demanding stage of life.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How much does online therapy cost?</h3>
+    <p>Costs vary by platform and session length, but online counselling is generally more affordable than traditional in-person therapy, and many services like BetterLyf offer flexible plans to fit different budgets.</p>
+  </div>
+
+  <div class="cta-block">
+    <h2>Your Emotional Health Deserves a Plan, Not Just a Reaction</h2>
+    <p>Whatever stage of life you're navigating right now, you don't have to figure it out alone. BetterLyf connects you with a licensed therapist who understands the emotional realities women face — on your schedule, from anywhere.</p>
+    <span class="cta-btn"><a href="https://www.betterlyf.com/">Book Your First Session</span></a>
+  </div>
+
+</main>
+
+<footer>
+  BetterLyf · Online Counselling &amp; Therapy for Every Stage of a Woman's Life
+</footer>
+
+</body>
+</html>
