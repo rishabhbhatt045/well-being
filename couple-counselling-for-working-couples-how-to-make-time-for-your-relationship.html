@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Couple Counselling for Working Couples: How to Make Time for Your Relationship</title>
+<meta name="description" content="Struggling to fit couple counselling around work? See how BetterLyf's online counselling helps busy working couples reconnect without rearranging their week.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap');
+
+  :root{
+    --ink:#20302F;
+    --paper:#FBF6EF;
+    --teal:#235057;
+    --teal-deep:#153436;
+    --marigold:#D98B3F;
+    --blush:#E9C6BC;
+    --sage:#8AA69A;
+    --line:#DED2C0;
+  }
+
+  *{box-sizing:border-box;}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Source Sans 3', sans-serif;
+    font-size:17px;
+    line-height:1.7;
+  }
+
+  .wrap{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 24px 80px;
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background: linear-gradient(180deg, var(--teal-deep) 0%, var(--teal) 100%);
+    color:#F6EFE4;
+    padding:56px 24px 44px;
+    margin-bottom:56px;
+  }
+  .hero-inner{
+    max-width:760px;
+    margin:0 auto;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--marigold);
+    display:inline-block;
+    margin-bottom:18px;
+  }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(28px, 4.4vw, 42px);
+    line-height:1.15;
+    margin:0 0 16px;
+    color:#FBF6EF;
+  }
+  .hero-sub{
+    font-size:17px;
+    color:#D9E4DE;
+    max-width:56ch;
+    margin:0 0 32px;
+  }
+
+  /* Signature illustration: weekly slot strip */
+  .week-strip{
+    display:flex;
+    align-items:flex-end;
+    gap:8px;
+    margin-top:8px;
+  }
+  .week-strip svg{ display:block; width:100%; height:auto; }
+
+  /* ---------- TYPE ---------- */
+  h2{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:26px;
+    color:var(--teal-deep);
+    margin:52px 0 16px;
+    line-height:1.25;
+  }
+  h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:19px;
+    color:var(--teal);
+    margin:28px 0 10px;
+  }
+  p{ margin:0 0 16px; }
+  strong{ color:var(--teal-deep); }
+
+  ul, ol{ padding-left:22px; margin:0 0 20px; }
+  li{ margin-bottom:8px; }
+
+  .lede{
+    font-size:19px;
+    color:var(--teal-deep);
+  }
+
+  /* small day-tick divider reused as the signature element */
+  .divider{
+    display:flex;
+    gap:6px;
+    align-items:center;
+    margin:44px 0;
+  }
+  .divider span{
+    width:6px; height:6px; border-radius:50%;
+    background:var(--sage);
+  }
+  .divider span.active{ background:var(--marigold); width:9px; height:9px; }
+  .divider .line{
+    flex:1;
+    height:1px;
+    background:var(--line);
+  }
+
+  /* card block for barriers / signs list */
+  .card{
+    background:#F3EBDD;
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:24px 26px;
+    margin:24px 0;
+  }
+  .card h3{ margin-top:0; }
+
+  /* step list */
+  .steps{
+    counter-reset: step;
+    list-style:none;
+    padding-left:0;
+  }
+  .steps li{
+    counter-increment: step;
+    position:relative;
+    padding-left:44px;
+    margin-bottom:22px;
+  }
+  .steps li::before{
+    content: counter(step);
+    position:absolute;
+    left:0; top:-2px;
+    width:30px; height:30px;
+    border-radius:50%;
+    background:var(--teal);
+    color:#fff;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .steps strong{ display:block; margin-bottom:2px; color:var(--teal-deep); font-size:17px;}
+
+  /* FAQ */
+  .faq-item{
+    border-top:1px solid var(--line);
+    padding:20px 0;
+  }
+  .faq-item:last-child{ border-bottom:1px solid var(--line); }
+  .faq-q{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:17.5px;
+    color:var(--teal-deep);
+    margin:0 0 8px;
+  }
+  .faq-a{ margin:0; color:var(--ink); }
+
+  /* CTA */
+  .cta{
+    background: var(--teal-deep);
+    color:#F6EFE4;
+    border-radius:14px;
+    padding:38px 32px;
+    text-align:center;
+    margin-top:56px;
+  }
+  .cta h2{
+    color:#F6EFE4;
+    margin-top:0;
+  }
+  .cta p{
+    color:#D9E4DE;
+    max-width:48ch;
+    margin:0 auto 24px;
+  }
+  .cta-btn{
+    display:inline-block;
+    background:var(--marigold);
+    color:var(--teal-deep);
+    font-weight:600;
+    font-family:'Source Sans 3', sans-serif;
+    padding:13px 30px;
+    border-radius:30px;
+    font-size:16px;
+  }
+
+  figcaption{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--sage);
+    text-align:center;
+    margin-top:10px;
+    letter-spacing:0.02em;
+  }
+
+  @media (max-width:520px){
+    .hero{ padding:40px 18px 32px; }
+    .card{ padding:20px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">BetterLyf &nbsp;·&nbsp; Relationships &amp; Work-Life Balance</span>
+    <h1>Couple Counselling for Working Couples: How to Fit Therapy Into a Busy Schedule</h1>
+    <p class="hero-sub">You don't need a free weekend to work on your relationship. Here's how working couples are making couple counselling fit around back-to-back calendars, not the other way around.</p>
+
+    <!-- Signature illustration: a week strip with one highlighted "session" slot -->
+    <figure style="margin:0;">
+      <svg viewBox="0 0 680 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="weekTitle weekDesc">
+        <title id="weekTitle">Weekly schedule illustration for online couple counselling</title>
+        <desc id="weekDesc">A seven-day week strip showing one evening slot set aside for an online couple counselling session between work commitments</desc>
+        <!-- baseline -->
+        <line x1="20" y1="110" x2="660" y2="110" stroke="#3A6A70" stroke-width="1"/>
+        <!-- day columns -->
+        <g font-family="IBM Plex Mono, monospace" font-size="11" fill="#AFC7C1">
+          <text x="48"  y="128">MON</text>
+          <text x="138" y="128">TUE</text>
+          <text x="228" y="128">WED</text>
+          <text x="318" y="128">THU</text>
+          <text x="408" y="128">FRI</text>
+          <text x="498" y="128">SAT</text>
+          <text x="588" y="128">SUN</text>
+        </g>
+        <!-- work bars (muted) -->
+        <rect x="35" y="70" width="26" height="40" rx="4" fill="#3A6A70"/>
+        <rect x="125" y="60" width="26" height="50" rx="4" fill="#3A6A70"/>
+        <rect x="215" y="50" width="26" height="60" rx="4" fill="#3A6A70"/>
+        <rect x="305" y="65" width="26" height="45" rx="4" fill="#3A6A70"/>
+        <rect x="485" y="90" width="26" height="20" rx="4" fill="#3A6A70"/>
+        <rect x="575" y="95" width="26" height="15" rx="4" fill="#3A6A70"/>
+        <!-- highlighted counselling slot: Thursday evening -->
+        <rect x="395" y="30" width="26" height="80" rx="4" fill="#D98B3F"/>
+        <circle cx="408" cy="22" r="5" fill="#F6EFE4"/>
+        <text x="408" y="16" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="10" fill="#F6EFE4">7:30 PM</text>
+      </svg>
+      <figcaption>One evening slot is often all it takes &mdash; online couple counselling built around a working week</figcaption>
+    </figure>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <p class="lede">Nearly <strong>45% of couples who eventually seek therapy</strong> say they waited until ongoing conflict became impossible to ignore &mdash; and one of the biggest reasons for the delay isn't reluctance, it's the calendar. <strong>Couple counselling for working couples</strong> has traditionally meant taking time off, driving across the city, and sitting in a waiting room &mdash; three things that are hard to justify when you're both juggling deadlines. This article breaks down why busy schedules quietly derail relationship therapy, and exactly how BetterLyf's online couple counselling is designed to work around a working week instead of competing with it.</p>
+
+  <h2>Why Working Couples Skip Couple Counselling (Even When They Need It)</h2>
+  <p>It's rarely a lack of willingness. Most working couples genuinely want to invest in their relationship &mdash; they just can't find a way to make the logistics work. A few patterns show up again and again:</p>
+
+  <div class="card">
+    <ul>
+      <li><strong>Clashing calendars.</strong> One partner works late, the other starts early, and finding an hour where you're both free and awake feels like solving a puzzle.</li>
+      <li><strong>Commute fatigue.</strong> After a full workday, driving to a clinic and back can eat up two extra hours &mdash; often the deciding factor in staying home.</li>
+      <li><strong>Location mismatch.</strong> One partner travels for work, or you're managing a long-distance stretch, and an in-person therapist simply isn't practical.</li>
+      <li><strong>Guilt about "adding one more thing."</strong> When the week is already full, therapy can feel like an obligation rather than support &mdash; even though it's meant to lighten the load.</li>
+    </ul>
+  </div>
+
+  <h2>The Real Cost of Putting Your Relationship on the Back Burner</h2>
+  <p>Postponing <b><a href="https://www.betterlyf.com/we-help-with/relationship-counselling/couple-counseling">couple counselling</a></b> rarely makes the underlying issue disappear &mdash; it usually just gives it more time to settle in. Therapists increasingly describe couples therapy as most effective when it starts early, before resentment builds, because couples who begin sooner tend to be calmer, less defensive, and more open to learning new patterns. Waiting for a "good time" often means waiting for a breaking point instead.</p>
+
+  <div class="divider">
+    <span class="active"></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    <span class="line"></span>
+  </div>
+
+  <h2>How Online Couple Counselling Fits Into a Working Couple's Week</h2>
+  <p>This is exactly the gap BetterLyf was built to close. Instead of asking working couples to rearrange their lives around therapy, BetterLyf's <strong>online counselling</strong> model rearranges therapy around their lives.</p>
+
+  <h3>Evening and weekend slots, not just business hours</h3>
+  <p>Sessions on BetterLyf are available in the early morning, post-work evening, and weekend windows &mdash; the times working couples actually have energy to talk, not just availability on paper.</p>
+
+  <h3>No commute, no waiting room</h3>
+  <p>Every session happens over secure video from wherever you both are &mdash; home, a hotel room, even separate cities. That alone can turn a two-hour commitment into a 50-minute one.</p>
+
+  <h3>Sessions across two locations</h3>
+  <p>If one of you is travelling for work, on a different shift, or living apart temporarily, you can still join the same session from two different screens. Distance stops being a reason to delay.</p>
+
+  <h3>A therapist matched to your reality</h3>
+  <p>BetterLyf pairs you with a licensed relationship counsellor based on what you're navigating &mdash; whether that's communication breakdowns, work-life imbalance, or reconnecting after a demanding few months &mdash; so sessions stay focused instead of starting from scratch each time.</p>
+
+  <div class="divider">
+    <span></span><span class="active"></span><span></span><span></span><span></span><span></span><span></span>
+    <span class="line"></span>
+  </div>
+
+  <h2>A Step-by-Step Guide: Fitting Couple Counselling Into a Busy Schedule</h2>
+  <ol class="steps">
+    <li><strong>Audit one week, not your whole life.</strong> Look at just the coming week and find one 50-minute window you're both realistically free &mdash; often a weekday evening or Sunday morning.</li>
+    <li><strong>Choose online over in-person by default.</strong> Removing the commute is usually the single biggest time-saver for working couples starting couple counselling.</li>
+    <li><strong>Book recurring slots, not one-off sessions.</strong> A standing weekly or biweekly time removes the "when should we schedule this" friction every single time.</li>
+    <li><strong>Treat the session like a meeting you can't move.</strong> Blocking it on a shared calendar, the same way you would a client call, protects it from getting quietly cancelled.</li>
+    <li><strong>Start before you're in crisis mode.</strong> Beginning couple counselling proactively, while things are manageable, tends to need fewer sessions than starting after a breaking point.</li>
+  </ol>
+
+  <h2>What to Expect From Your First Session With BetterLyf</h2>
+  <p>Your first BetterLyf session is a low-pressure conversation, not an evaluation. Your counsellor will ask what's bringing you in, how work and life are currently affecting your relationship, and what a realistic session schedule looks like for both of you. From there, you'll agree on a cadence &mdash; weekly, biweekly, or flexible &mdash; that respects your actual calendar rather than a generic template.</p>
+
+  <h2>Signs It's Time to Stop Postponing Couple Counselling</h2>
+  <div class="card">
+    <ul>
+      <li>You've said "we'll deal with it after this project/quarter/season" more than once.</li>
+      <li>Conversations about scheduling therapy keep turning into arguments themselves.</li>
+      <li>You're both exhausted, but the exhaustion is starting to show up as distance, not just tiredness.</li>
+      <li>You've researched couple counselling before but stopped at the logistics.</li>
+    </ul>
+  </div>
+  <p>If two or more of these sound familiar, that's usually a sign the barrier is practical, not emotional &mdash; which is precisely the kind of barrier online couple counselling is designed to remove.</p>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <p class="faq-q">Can couple counselling really work in just 45–50 minutes a week?</p>
+    <p class="faq-a">Yes. Most structured couple counselling programs are built around 45–50 minute weekly or biweekly sessions. What matters more than session length is consistency, so a shorter, regular slot usually outperforms a longer session squeezed in occasionally.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Is online couple counselling as effective as in-person therapy for working couples?</p>
+    <p class="faq-a">Research on video-based relationship therapy shows comparable outcomes to in-person sessions for most couples, with the added benefit of consistency, since it's far easier to keep a video appointment than to commute to one after a long workday.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">What if we're in two different cities or time zones?</p>
+    <p class="faq-a">Online couple counselling was practically built for this. On BetterLyf, both partners can join the same session from different locations, and appointment times can be set around whichever schedule is tighter.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">How do we choose a time we can both actually commit to?</p>
+    <p class="faq-a">Start with the least flexible calendar first &mdash; usually whoever has the more rigid work schedule &mdash; then find a recurring window around it. Early mornings before work and Sunday evenings tend to work well for busy couples.</p>
+  </div>
+
+  <div class="faq-item">
+    <p class="faq-q">Do we need a specific "problem" to start couple counselling, or can it be preventive?</p>
+    <p class="faq-a">You don't need a crisis to justify starting. Many working couples now begin counselling proactively, as a way to protect the relationship from the pressure of demanding jobs, rather than waiting until communication has already broken down.</p>
+  </div>
+
+  <div class="cta">
+    <h2>Your Relationship Deserves One Slot on the Calendar</h2>
+    <p>BetterLyf makes it simple for working couples to start online couple counselling &mdash; flexible timing, licensed therapists, and zero commute required.</p>
+    <span class="cta-btn"><a href="https://www.betterlyf.com/">Book Your Session With BetterLyf</span></a>
+  </div>
+
+</div>
+</body>
+</html>
