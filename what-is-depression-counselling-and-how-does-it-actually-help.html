@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What Is Depression Counselling and How Does It Actually Help?</title>
+<meta name="description" content="What is depression counselling and how does it actually help? A clear, honest guide to what happens in sessions, who it's for, and how to begin healing.">
+<style>
+  :root{
+    --bg: #EEF1EF;
+    --bg-card: #FFFFFF;
+    --ink: #23322F;
+    --ink-soft: #4B5A55;
+    --teal: #1F4E4A;
+    --teal-deep: #163A37;
+    --gold: #C89B5C;
+    --coral: #E3785C;
+    --line: #D9DED9;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:760px;
+    margin:0 auto;
+    padding:0 24px 80px;
+  }
+  /* HERO */
+  .hero{
+    background:linear-gradient(180deg,#1F4E4A 0%,#173E3B 100%);
+    color:#F4F1E9;
+    padding:56px 24px 0;
+    margin-bottom:8px;
+  }
+  .hero-inner{
+    max-width:760px;
+    margin:0 auto;
+    text-align:center;
+  }
+  .eyebrow{
+    display:inline-block;
+    font-size:13px;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:var(--gold);
+    font-weight:600;
+    margin-bottom:18px;
+  }
+  h1{
+    font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+    font-size:clamp(28px,4.4vw,42px);
+    line-height:1.25;
+    font-weight:600;
+    margin:0 0 20px;
+    color:#FBF9F2;
+  }
+  .hero-sub{
+    font-size:16px;
+    color:#C9D6D2;
+    max-width:520px;
+    margin:0 auto 40px;
+  }
+  .illustration{
+    width:100%;
+    max-width:420px;
+    margin:0 auto;
+    display:block;
+  }
+  /* ARTICLE */
+  article{
+    background:var(--bg-card);
+    margin-top:-1px;
+    padding:48px 40px 8px;
+    border-radius:0 0 18px 18px;
+    box-shadow:0 12px 40px rgba(31,78,74,0.08);
+  }
+  @media(max-width:640px){
+    article{padding:32px 22px 8px;}
+    .hero{padding:44px 18px 0;}
+  }
+  .lede{
+    font-size:19px;
+    color:var(--ink-soft);
+    margin-bottom:8px;
+  }
+  h2{
+    font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+    font-size:26px;
+    color:var(--teal-deep);
+    margin:48px 0 16px;
+    padding-top:8px;
+    border-top:1px solid var(--line);
+  }
+  article > h2:first-of-type{border-top:none;padding-top:0;}
+  h3{
+    font-size:18px;
+    color:var(--ink);
+    margin:28px 0 10px;
+    font-weight:700;
+  }
+  p{margin:0 0 18px;font-size:16px;color:var(--ink);}
+  ul, ol{margin:0 0 20px;padding-left:22px;}
+  li{margin-bottom:10px;font-size:16px;}
+  ul li::marker{color:var(--gold);}
+  ol{counter-reset:step;}
+  ol li{
+    list-style:none;
+    position:relative;
+    padding-left:38px;
+    margin-bottom:20px;
+    counter-increment:step;
+  }
+  ol li::before{
+    content:counter(step);
+    position:absolute;
+    left:0; top:0;
+    width:26px; height:26px;
+    background:var(--teal);
+    color:#fff;
+    border-radius:50%;
+    font-size:13px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .callout{
+    background:#F2F6F3;
+    border-left:4px solid var(--gold);
+    padding:18px 22px;
+    border-radius:6px;
+    margin:28px 0;
+    font-size:15.5px;
+    color:var(--ink-soft);
+  }
+  .divider{
+    display:block;
+    width:100%;
+    height:28px;
+    margin:44px 0 -12px;
+    opacity:0.6;
+  }
+  /* FAQ */
+  .faq-item{
+    border-bottom:1px solid var(--line);
+    padding:20px 0;
+  }
+  .faq-item:last-child{border-bottom:none;}
+  .faq-q{
+    font-weight:700;
+    color:var(--teal-deep);
+    font-size:16.5px;
+    margin-bottom:8px;
+  }
+  .faq-a{
+    color:var(--ink-soft);
+    font-size:15.5px;
+    margin:0;
+  }
+  /* CTA */
+  .cta-box{
+    background:linear-gradient(135deg,#1F4E4A,#163A37);
+    border-radius:16px;
+    padding:40px 32px;
+    text-align:center;
+    margin:52px 0 8px;
+    color:#F4F1E9;
+  }
+  .cta-box h3{
+    color:#fff;
+    font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+    font-size:22px;
+    margin:0 0 12px;
+  }
+  .cta-box p{
+    color:#C9D6D2;
+    font-size:15px;
+    max-width:440px;
+    margin:0 auto 24px;
+  }
+  .cta-btn{
+    display:inline-block;
+    background:var(--gold);
+    color:#1F2A27;
+    font-weight:700;
+    font-size:15px;
+    padding:14px 30px;
+    border-radius:30px;
+    border:none;
+    cursor:pointer;
+  }
+  footer{
+    text-align:center;
+    font-size:13px;
+    color:var(--ink-soft);
+    margin-top:36px;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-inner">
+    <span class="eyebrow">Mental Health, Explained Simply</span>
+    <h1>What Is Depression Counselling and How Does It Actually Help?</h1>
+    <p class="hero-sub">A clear, no-jargon look at what happens behind the term — and why it works for so many people who thought nothing would.</p>
+
+    <svg class="illustration" viewBox="0 0 420 260" role="img" aria-label="Illustration of a person walking out of a heavy fog toward open, sunlit sky, representing the journey through depression counselling">
+      <title>A person emerging from fog into light — depression counselling</title>
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#F4D9A3"/>
+          <stop offset="100%" stop-color="#1F4E4A" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <circle cx="320" cy="60" r="46" fill="url(#sky)"/>
+      <circle cx="320" cy="60" r="26" fill="#F0C978" opacity="0.9"/>
+      <path d="M0,190 C60,170 100,205 160,185 C220,165 260,200 420,180 L420,260 L0,260 Z" fill="#28524D" opacity="0.55"/>
+      <path d="M0,210 C70,195 120,225 190,205 C260,185 300,220 420,205 L420,260 L0,260 Z" fill="#1B403C" opacity="0.75"/>
+      <g transform="translate(150,150)">
+        <circle cx="18" cy="10" r="10" fill="#F4F1E9"/>
+        <path d="M18,22 C6,22 0,34 0,52 L36,52 C36,34 30,22 18,22 Z" fill="#F4F1E9"/>
+        <path d="M0,52 L-8,80" stroke="#F4F1E9" stroke-width="5" stroke-linecap="round"/>
+        <path d="M36,52 L44,80" stroke="#F4F1E9" stroke-width="5" stroke-linecap="round"/>
+      </g>
+      <path d="M0,150 C60,135 110,160 170,142 C230,124 280,150 420,140 L420,260 L0,260 Z" fill="#EEF1EF" opacity="0.9"/>
+    </svg>
+  </div>
+</div>
+
+<div class="wrap">
+<article>
+
+<p class="lede">If you've ever typed "why do I feel like this for no reason" into a search bar at midnight, you're far from alone — and there's a good chance what you're describing has a name, and a way through it.</p>
+
+<p>Depression counselling is one of the most searched mental health terms today, yet most people still aren't quite sure what it actually involves. Is it just talking? Is it only for "serious" cases? Does it really work, or is it another wellness buzzword? This guide breaks down what depression counselling really is, what happens in a session, and how it genuinely helps — explained the way we'd explain it to a friend, not a textbook.</p>
+
+<h2>What Is Depression Counselling, Exactly?</h2>
+
+<p>Depression counselling is a structured form of talk therapy where a trained mental health professional helps you understand, process, and manage the thoughts and feelings that come with depression — persistent sadness, loss of motivation, fatigue, irritability, or a general sense of numbness that won't lift on its own.</p>
+
+<p>Unlike a casual chat with a friend, counselling follows a therapeutic approach. Your counsellor isn't just listening — they're trained to notice patterns, ask the right questions, and guide you toward tools that actually change how you think and cope, not just how you feel in the moment.</p>
+
+<h3>How It's Different from "Just Talking to Someone"</h3>
+
+<p>Venting to a friend can feel good for an hour. <b><a href="https://www.betterlyf.com/we-help-with/stress-anxiety-depression/depression">Depression counselling</a></b> is built for the long game — it's goal-oriented, confidential, and rooted in psychological methods that are backed by research, not just good intentions.</p>
+
+<h2>How Does Depression Counselling Actually Help?</h2>
+
+<p>This is the part most people are genuinely curious about. Here's what changes, practically speaking, when someone commits to depression counselling:</p>
+
+<ul>
+  <li><strong>It interrupts negative thought loops.</strong> Depression often runs on autopilot — the same self-critical thoughts on repeat. Counselling teaches you to catch and question them.</li>
+  <li><strong>It rebuilds motivation gradually.</strong> Instead of waiting to "feel like it," counsellors help you take small, structured steps that create momentum.</li>
+  <li><strong>It gives you language for what you're feeling.</strong> Many people struggle simply to name what's wrong. Counselling puts words to the fog.</li>
+  <li><strong>It addresses root causes, not just symptoms.</strong> Grief, burnout, trauma, or long-term stress often sit underneath depression — sessions help uncover what's actually driving it.</li>
+  <li><strong>It creates accountability without judgment.</strong> A regular session is a standing appointment with your own wellbeing, something that's easy to deprioritize otherwise.</li>
+</ul>
+
+<div class="callout">
+  Depression counselling isn't about "fixing" you — because you were never broken. It's about giving your mind tools it was never taught.
+</div>
+
+<h2>What Happens in a Depression Counselling Session?</h2>
+
+<p>If the unknown is what's holding you back, here's a realistic walkthrough of what the process typically looks like, especially with online counselling:</p>
+
+<ol>
+  <li><strong>An initial conversation.</strong> Your counsellor asks about your history, current symptoms, and what's been happening in your life recently — no pressure to have it all figured out.</li>
+  <li><strong>Setting a direction together.</strong> Rather than a rigid plan, you and your counsellor agree on what you want to work on — sleep, motivation, relationships, self-worth, or all of it.</li>
+  <li><strong>Regular sessions.</strong> Most people start with weekly sessions, gradually spacing them out as things start to shift.</li>
+  <li><strong>Learning practical tools.</strong> Sessions often include techniques like cognitive reframing, grounding exercises, or behavioural activation — simple, usable strategies, not abstract theory.</li>
+  <li><strong>Tracking progress honestly.</strong> Good counselling checks in on what's working and adjusts course when something isn't.</li>
+</ol>
+
+<h2>Signs You Might Benefit From Depression Counselling</h2>
+
+<p>Depression doesn't always look like sadness. It's worth considering counselling if you notice:</p>
+
+<ul>
+  <li>A flat, numb feeling that's lasted more than two weeks</li>
+  <li>Losing interest in things you used to enjoy</li>
+  <li>Constant fatigue, even after rest</li>
+  <li>Trouble concentrating or making decisions</li>
+  <li>Withdrawing from friends, family, or routines</li>
+  <li>A persistent inner voice that's harshly self-critical</li>
+</ul>
+
+<p>None of these need to be extreme to count. You don't need a crisis to justify getting support.</p>
+
+<h2>Why More People Are Choosing Online Counselling</h2>
+
+<p>A major shift in recent years is how accessible depression counselling has become through online counselling. No commute, no waiting rooms, no need to explain yourself to a receptionist — just a private, scheduled session from wherever feels safest to you.</p>
+
+<p>For many, especially those juggling work, studies, or family responsibilities, online counselling has quietly removed the biggest barrier that used to stop people from ever starting: logistics. It's also made it easier to find a counsellor who's actually the right fit, rather than settling for whoever's nearby.</p>
+
+<svg class="divider" viewBox="0 0 400 20" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0,10 C50,0 100,20 150,10 C200,0 250,20 300,10 C340,3 370,15 400,8" stroke="#C89B5C" stroke-width="2" fill="none"/>
+</svg>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <p class="faq-q">Is depression counselling the same as seeing a psychiatrist?</p>
+  <p class="faq-a">No. Counsellors and therapists focus on talk-based treatment, while psychiatrists are medical doctors who can prescribe medication. Many people benefit from counselling alone; others use both together.</p>
+</div>
+
+<div class="faq-item">
+  <p class="faq-q">How many sessions of depression counselling do I need?</p>
+  <p class="faq-a">It varies widely — some people notice a shift within 6 to 8 sessions, while others continue longer-term support. Your counsellor will help set realistic expectations based on your situation.</p>
+</div>
+
+<div class="faq-item">
+  <p class="faq-q">Can online counselling really be as effective as in-person therapy?</p>
+  <p class="faq-a">Research consistently shows online counselling can be just as effective as in-person sessions for depression and anxiety, especially when sessions are consistent and the therapeutic relationship is strong.</p>
+</div>
+
+<div class="faq-item">
+  <p class="faq-q">What if I don't know what's wrong, I just feel "off"?</p>
+  <p class="faq-a">That's one of the most common reasons people start depression counselling. You don't need a diagnosis or a clear explanation to begin — naming the feeling is often the first part of the work itself.</p>
+</div>
+
+<div class="faq-item">
+  <p class="faq-q">Is depression counselling confidential?</p>
+  <p class="faq-a">Yes. Sessions are private, and licensed counsellors follow strict confidentiality standards, with rare, clearly defined exceptions around immediate safety.</p>
+</div>
+
+<h2>Conclusion: You Don't Need to Wait for Things to Get Worse</h2>
+
+<p>Depression counselling isn't reserved for emergencies — it's for anyone whose mind has been carrying more than it should, for longer than it should. It works not by giving you generic advice, but by helping you understand your own patterns, one honest conversation at a time.</p>
+
+<p>If any part of this sounded familiar, that's worth listening to. Support doesn't have to start with a crisis — it can start with a single session.</p>
+
+<div class="cta-box">
+  <h3>Start Your First Session, When You're Ready</h3>
+  <p>Betterlyf's licensed counsellors offer confidential online counselling for depression, built around your pace, not a waiting list.</p>
+  <button class="cta-btn"><a href="https://www.betterlyf.com/">Talk to a Counsellor Today</button></a>
+</div>
+
+<footer>Betterlyf &middot; Online Depression Counselling &middot; 2026</footer>
+
+</article>
+</div>
+
+</body>
+</html>
